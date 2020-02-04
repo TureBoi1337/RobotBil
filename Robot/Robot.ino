@@ -17,7 +17,7 @@ void initPins();
 void blinkStatusLed(int del);
 void connectToWiFi(void);
 WiFiEspServer server (8080);
-SoftwareSerial Serial1(SOFTSERIAL_RX, SOFTSERIAL_TX);
+
 
 void initPins();
 void blinkStatusLed(int del);
