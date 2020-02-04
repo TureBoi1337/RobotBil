@@ -12,7 +12,7 @@
  * Här definerar ni funktioner.
  * Lägg till funktioner och namnge dom logiskt.
  */
-SoftwareSerial Serial1(6, 7);
+- SoftwareSerial Serial1(SOFTSERIAL_RX, SOFTSERIAL_TX);
 void initPins();
 void blinkStatusLed(int del);
 void connectToWiFi(void);
